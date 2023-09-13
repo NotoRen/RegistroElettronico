@@ -3,12 +3,13 @@
 <html>
 <head lang="it">
     <meta charset="UTF-8">
-    <title>  randomUser.me  </title>
+    <title>  Registro Elettronico  </title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" >
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="index.css">
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -17,6 +18,137 @@
 </head>
 
 <body>
-   
+    <div style="display:none"> <!--  login   -->
+        <button class="tablink 1">Docente</button>
+        <button class="tablink 2" >Studente</button>
+        <div class="tabcontent 1">
+        </div>
+        <div class="tabcontent 2" >
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+                  
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Navbar brand -->
+              <a class="navbar-brand mt-2 mt-lg-0" href="#">
+              <img
+                  src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                  height="15"
+                  alt="MDB Logo"
+                  loading="lazy"
+              />
+              </a>
+              <!-- Left links -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a>ISTITUTO ISTRUZIONE SUPERIORE G. VALLAURI</a>
+              </li>
+              <li class="nav-item">
+                  <a>A.S.:2022/23</a>
+              </li>
+              </ul>
+              <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+      
+          <!-- Right elements -->
+          <div class="d-flex align-items-center" >
+              <!-- Avatar -->
+              <i class="bi bi-door-open fa-lg"font-size="15px"></i>
+              <img class="rounded-circle" src="img/user.jpg" width="30px"/>
+          </div>
+          <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+    <div id="home">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm container"> 
+                <div class="row">
+                  <i class="bi bi-chat-fill fa-lg"></i>
+                  Comunicazioni</div>
+                <div class="row">Vai alle Comunicazioni</div>
+              </div>
+              <div class="col-sm container"> 
+                <div class="row">
+                  <i class="bi bi-person-fill fa-lg"></i>
+                  Anagrafico</div>
+                <div class="row">Vai all'Anagrafico</div>
+              </div>
+              <div class="col-sm container"> 
+                <div class="row">
+                  <i class="bi bi-file-text-fill fa-lg"></i>
+                  Curricolum e Documenti</div>
+                <div class="row">Vai ai tuoi Curricolum e Documenti</div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-sm container"> 
+                  <div class="row">
+                    <i class="bi bi-clock-fill fa-lg"></i>
+                    Orario Lezioni</div>
+                  <div class="row">Vai al'Orario delle lezioni</div>
+                </div>
+                <div class="col-sm container"> 
+                  <div class="row">
+                    <i class="bi bi-vector-pen fa-lg"></i>
+                    Assenze e Giustificazioni</div>
+                  <div class="row">Vai alle Assenze e giustificazioni</div>
+                </div>
+                <div class="col-sm container"> 
+                  <div class="row">
+                    <i class="bi bi-box-arrow-in-right fa-lg"></i>
+                    Richiesta Permessi</div>
+                  <div class="row">Vai ai tuoi permessi</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm container"> 
+                  <div class="row">
+                    <i class="bi bi-journal-bookmark-fill fa-lg"></i>
+                    Registro di classe</div>
+                  <div class="row">Vai al Registro di classe</div>
+                </div>
+                <div class="col-sm container"> 
+                  <div class="row">
+                    <i class="bi bi-mortarboard-fill fa-lg"></i>
+                    Voti</div>
+                  <div class="row">Vai ai voti</div>
+                </div>
+                <div class="col-sm container"> 
+                  <div class="row">
+                    <i class="bi bi-file-post fa-lg"></i>
+                    Pagella</div>
+                  <div class="row">Vai alla Pagella</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm container"> 
+                  <div class="row">
+                    <i class="bi bi-people-fill fa-lg"></i>
+                    Colloqui</div>
+                  <div class="row">Vai ai Colloqui</div>
+                </div>
+                <div class="col-sm container"> 
+                  <div class="row">
+                    <i class="bi bi-currency-euro fa-lg"></i>
+                    PagoScuola</div>
+                  <div class="row">Vai a Pagoscuola</div>
+                </div>
+                <div class="col-sm container"> 
+                  <div class="row">
+                    <i class="bi bi-book fa-lg"></i>
+                    Collabora</div>
+                  <div class="row">Vai al Materiale didattico</div>
+                </div>
+              </div>
+          </div>
+    </div>
 </body>
 </html>
